@@ -25,5 +25,6 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime 
 WORKDIR /app
 EXPOSE 80
-COPY --from=publish /app .
+#COPY --from=publish /app .
+COPY ./bin/Release/netcoreapp2.1/publish/publish /app .
 ENTRYPOINT ["dotnet", "MyAPIS.dll"]
