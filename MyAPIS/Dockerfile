@@ -8,8 +8,8 @@ WORKDIR /src
 #COPY ./MyAPIS/MyAPIS.csproj MyAPIS/
 #RUN dotnet restore ./MyAPIS/MyAPIS.csproj
 
-COPY MyAPIS.csproj MyAPIS/
-RUN dotnet restore MyAPIS.csproj
+COPY ./MyAPIS.csproj MyAPIS/
+RUN dotnet restore ./MyAPIS.csproj
 
 COPY . .
 WORKDIR /src/MyAPIS
