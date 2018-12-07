@@ -4,10 +4,10 @@ EXPOSE 80
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY MyAPIS.csproj MyAPIS/
-#COPY MyAPIS/MyAPIS.csproj MyAPIS/
-#RUN dotnet restore MyAPIS/MyAPIS.csproj
-RUN dotnet restore MyAPIS.csproj
+
+COPY ./MyAPIS/MyAPIS.csproj MyAPIS/
+RUN dotnet restore ./MyAPIS/MyAPIS.csproj
+
 COPY . .
 WORKDIR /src/MyAPIS
 RUN dotnet build MyAPIS.csproj -c Release -o /app
