@@ -6,13 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="MirrorData\**" />
-    <Content Remove="MirrorData\**" />
-    <EmbeddedResource Remove="MirrorData\**" />
-    <None Remove="MirrorData\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
@@ -20,6 +13,10 @@
     <None Update="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MirrorData\123\" />
   </ItemGroup>
 
 </Project>
