@@ -6,38 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="obj\Debug\netcoreapp2.1\MyAPIS.AssemblyInfo.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\MyAPIS.RazorAssemblyInfo.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\MyAPIS.RazorTargetAssemblyInfo.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Debug\netcoreapp2.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\MyAPIS.AssemblyInfo.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\MyAPIS.RazorAssemblyInfo.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\MyAPIS.RazorTargetAssemblyInfo.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
-    <Compile Include="obj\Release\netcoreapp2.1\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Remove="obj\**" />
+    <Content Remove="obj\**" />
+    <EmbeddedResource Remove="obj\**" />
+    <None Remove="obj\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -67,29 +39,6 @@
     <Content Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery-validation\.bower.json" />
     <Content Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery\.bower.json" />
     <Content Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery\LICENSE.txt" />
-    <Content Include="obj\Debug\netcoreapp2.1\MyAPIS.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\project.assets.json" />
-    <Content Include="obj\Release\netcoreapp2.1\MyAPIS.csproj.FileListAbsolute.txt" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.Development.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\appsettings.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.deps.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.runtimeconfig.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\css\site.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\css\site.min.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\favicon.ico" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\.bower.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\.bower.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery\.bower.json" />
-    <Content Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery\LICENSE.txt" />
   </ItemGroup>
 
   <ItemGroup>
@@ -100,10 +49,6 @@
     <None Update="Dockerfile">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="MirrorData\123\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -148,69 +93,6 @@
     <None Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery\dist\jquery.js" />
     <None Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery\dist\jquery.min.js" />
     <None Include="bin\Release\netcoreapp2.1\publish\wwwroot\lib\jquery\dist\jquery.min.map" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.AssemblyInfoInputs.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.assets.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.csproj.CopyComplete" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.csprojAssemblyReference.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.dll" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.pdb" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.RazorAssemblyInfo.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.RazorCoreGenerate.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.RazorTargetAssemblyInfo.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.TagHelpers.input.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.TagHelpers.output.cache" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.Views.dll" />
-    <None Include="obj\Debug\netcoreapp2.1\MyAPIS.Views.pdb" />
-    <None Include="obj\MyAPIS.csproj.EntityFrameworkCore.targets" />
-    <None Include="obj\MyAPIS.csproj.nuget.cache" />
-    <None Include="obj\MyAPIS.csproj.nuget.g.props" />
-    <None Include="obj\MyAPIS.csproj.nuget.g.targets" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.AssemblyInfoInputs.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.assets.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.csproj.CopyComplete" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.csproj.CoreCompileInputs.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.csprojAssemblyReference.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.dll" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.pdb" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.RazorAssemblyInfo.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.RazorCoreGenerate.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.RazorTargetAssemblyInfo.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.TagHelpers.input.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.TagHelpers.output.cache" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.Views.dll" />
-    <None Include="obj\Release\netcoreapp2.1\MyAPIS.Views.pdb" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\Dockerfile" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.dll" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.pdb" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.Views.dll" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\MyAPIS.Views.pdb" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\web.config" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner1.svg" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner2.svg" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\images\banner3.svg" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\js\site.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\js\site.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\dist\js\npm.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\bootstrap\LICENSE" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery-validation\LICENSE.md" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.js" />
-    <None Include="obj\Release\netcoreapp2.1\PubTmp\Out\wwwroot\lib\jquery\dist\jquery.min.map" />
   </ItemGroup>
 
 </Project>
