@@ -15,8 +15,4 @@
     </None>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="MirrorData\" />
-  </ItemGroup>
-
 </Project>
