@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAPIS", "MyAPIS\MyAPIS.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C9A353A-F5B1-4BBF-B0F5-B55031C4F9F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datas", "Datas\Datas.csproj", "{B6B9E0EF-4680-4EA7-B1AE-1C435A726052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{B84E36FD-9FF6-44EB-B83A-2D681B04FAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B84E36FD-9FF6-44EB-B83A-2D681B04FAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B84E36FD-9FF6-44EB-B83A-2D681B04FAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B9E0EF-4680-4EA7-B1AE-1C435A726052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B9E0EF-4680-4EA7-B1AE-1C435A726052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B9E0EF-4680-4EA7-B1AE-1C435A726052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B9E0EF-4680-4EA7-B1AE-1C435A726052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B84E36FD-9FF6-44EB-B83A-2D681B04FAA1} = {8C9A353A-F5B1-4BBF-B0F5-B55031C4F9F3}
+		{B6B9E0EF-4680-4EA7-B1AE-1C435A726052} = {8C9A353A-F5B1-4BBF-B0F5-B55031C4F9F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {24470AEF-9B8C-48FA-9412-5CBEFEBDE837}
