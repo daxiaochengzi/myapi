@@ -5,6 +5,7 @@ EXPOSE 80
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
 COPY MyAPIS/MyAPIS.csproj MyAPIS/
+COPY Datas/Datas.csproj Datas/
 RUN dotnet restore MyAPIS/MyAPIS.csproj
 COPY . .
 WORKDIR /src/MyAPIS

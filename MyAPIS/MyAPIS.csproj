@@ -21,9 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Dockerfile">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    <ProjectReference Include="..\Datas\Datas.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Datas;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyAPIS.Pages
@@ -12,7 +13,9 @@ namespace MyAPIS.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page123.";
+            var Userdd = new User();
+            Userdd.Name = "123";
+            Message = "Your application description page123." + Userdd.Name;
         }
     }
 }
