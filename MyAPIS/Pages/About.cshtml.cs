@@ -14,8 +14,8 @@ namespace MyAPIS.Pages
         public void OnGet()
         {
             var Userdd = new User();
-            Userdd.Name = "123";
-            Message = "Your application description page123." + Userdd.Name;
+            Userdd.Name = "12355";
+            Message = "Your application description page" + Userdd.Name;
         }
     }
 }
