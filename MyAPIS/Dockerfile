@@ -18,3 +18,5 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "MyAPIS.dll"]
+
+ENV START_URI="http://*:500"
